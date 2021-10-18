@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/subset-Roboto-Regular.eot');
+    src: url('fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/subset-Roboto-Regular.woff2') format('woff2'),
+         url('fonts/subset-Roboto-Regular.woff') format('woff'),
+         url('fonts/subset-Roboto-Regular.ttf') format('truetype'),
+         url('fonts/subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/subset-Roboto-Medium.eot');
+    src: url('fonts/subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/subset-Roboto-Medium.woff2') format('woff2'),
+         url('fonts/subset-Roboto-Medium.woff') format('woff'),
+         url('fonts/subset-Roboto-Medium.ttf') format('truetype'),
+         url('fonts/subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.container {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding-top: 79px;
+    padding-bottom: 141px;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 42px;
+}
+
+.link.active,
+.link:hover {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 10%;
+    color: #34547A;
+}
+
+.navigation {
+    margin-bottom: 160px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 45px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #727272;
+    width: 540px;
+    margin-bottom: 54px;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: #34547A;
+    color: #FFFFFF;
+    padding: 19px 41px 20px 41px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: 'Roboto', 'sans-serif';
+    border: none;
+    cursor: pointer;
+}
+
+.about-me .description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 42px;
+}
+
+.about-me {
+    background-color: #F9F9F9;
+    padding-top: 112px;
+    padding-bottom: 89px;
+}
+
+.cards{
+    background-color: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #FFFFFF;
+}
+
+.card-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.card-info {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-title{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 49px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.how-to .description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 46px;
+    text-align: center;
+}
+
+.video {
+    display: block;
+    width: 1110px;
+    height: 600px;
+}
+
+.how-to {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EEEFF1;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 47px;
+    background-color: #34547A;
+    color: #FFFFFF;
+}
+
+.name{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.copyrigtht {
+    font-size: 13px;
+    line-height: 15px;
+}
